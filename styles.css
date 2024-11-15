@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 20px;
+}
+
+#grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black
+}
+
+.painted {
+  background-color: black;
+}
