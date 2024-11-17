@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <script src = "script.js" defer></script>
     <link rel = "stylesheet" href = "styles.css"> 
     <title>Etch a Sketch</title>
@@ -10,11 +10,12 @@
 <body>
     <main>
         <div id = "grid-container"></div>
-        <div id="buttons-container">
-            <button class = "grid-size-btn">
+        <div id = "buttons-container">
+            <input type = "number" id = "grid-size-input" placeholder="1-64" >
+            <button id = "grid-size-btn">
                 Set grid size
             </button>
-            <button class = "grid-clear-btn">
+            <button id = "grid-clear-btn">
                 Clear
             </button>
         </div>
